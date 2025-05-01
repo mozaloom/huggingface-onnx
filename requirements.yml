@@ -1,0 +1,11 @@
+name: huggingface-onnx
+
+dependencies:
+  - python=3.11
+  - pytorch::pytorch
+  - pip
+  - transformers[onnx]
+  - onnxruntime
+  - pip:
+    - ipywidgets
+    - ipykernel
