@@ -1,7 +1,7 @@
 name: huggingface-onnx
 
 dependencies:
-  - python=3.11
+  - python=3.12
   - pytorch::pytorch
   - pip
   - transformers[onnx]
